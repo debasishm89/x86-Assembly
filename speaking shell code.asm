@@ -115,10 +115,10 @@ GetHashes:
  db 0x8A
  db 0x0E     
    ;ExitProcess hash
-    db 0x7E
-    db 0xD8
-    db 0xE2
-    db 0x73   
+ db 0x7E
+ db 0xD8
+ db 0xE2
+ db 0x73   
 ;Main
 start_main:
     sub esp,0x14              ;allocate space on stack to store 5 function address
